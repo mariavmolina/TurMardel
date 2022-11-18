@@ -64,6 +64,10 @@
   --bs-body-bg: #fff;
 }
 
+*{
+  margin: 0;
+}
+
 *,
 *::before,
 *::after {
@@ -11337,4 +11341,26 @@ li{
   padding-right: 500px;
   
   height: 400px;
+}
+
+.footerpag{
+  background-color: #B3D0E1;
+  margin-top: 150px;
+
+}
+
+.icons li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+  
+
+}
+.asesoramiento{
+  font-weight: bold;
+}
+
+.container2{
+  margin: 40px;
+  margin-top: 45px;
 }
