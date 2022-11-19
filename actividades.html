@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Contacto</title>
+    <title>Inicio</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Core theme CSS (includes Bootstrap)-->
@@ -56,62 +56,8 @@
         </nav>
 
     </header>
+    
     <main>
-        <section id="contacto">
-            <div>
-                <h2>Contacto</h2>
-                <p><strong>Contactate con nosotros</strong> por cualquier consulta que tengas.</p>
-                <p id="texto">La responderemos en la brevedad.</p>
-            </div>
-            <form action="enviar_formulario.php" method="post" enctype="multipart/form-data">
-                <div class="nombre-apellido">
-                    <div>
-                        <label for="nombre">Nombre <span>*</span></label>
-                        <hr>
-                        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
-                    </div>
-                    <div>
-                        <label for="apellido">Apellido <span>*</span></label>
-                        <hr>
-                        <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
-                    </div>
-                </div>
-                <div class="select">
-                    <label>Sexo<span>*</span></label>
-                    <hr>
-                    <div>
-                        <input type="radio" required name="sexo" value="hombre" id="hombre">
-                        <label for="hombre">Hombre</label>
-                    </div>
-                    <div>
-                        <input type="radio" required name="sexo" value="mujer" id="mujer">
-                        <label for="mujer">Mujer</label>
-                    </div>
-                    <div>
-                        <input type="radio" required name="sexo" value="otro" id="otro">
-                        <label for="otro">Otro</label>
-                    </div>
-                </div>
-                <div>
-                    <label for="mail">Mail <span>*</span></label>
-                    <hr>
-                    <input type="email" name="mail" id="mail" placeholder="Ingrese un mail" required>
-                </div>
-                <div>
-                    <label for="mensaje">Mensaje</label>
-                    <hr>
-                    <textarea name="mensaje" id="mensaje" cols="103" rows="6"
-                        placeholder="Escribe aquí tu consulta..."></textarea>
-                </div>
-                <div class="submit">
-                    <input type="submit" value="Enviar">
-                </div>
-            </form>
-            <div id="enviado">
-                <p>El formulario se envio exitosamente!</p>
-            </div>
-        </section>
-        
     </main>
 
     <footer>

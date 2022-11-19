@@ -22,7 +22,7 @@ nav li {
 
 footer {
   background-color: #B3D0E1;
-  margin-top: 70px;
+  margin-top: 20px;
 }
 .redes ul{
   display: flex;
@@ -45,4 +45,35 @@ footer {
 }
 .nosotros div{
   margin: 50px 0;
+  font-size: 25px;
+  text-shadow: 1px 1px #00000025
+}
+
+.nav-link:hover{
+  background-color: rgba(0, 140, 255, 0.582);
+  border-radius: 40px;
+
+}
+
+@media (hover: hover){
+  .button:hover{
+    background-color: rgba(38, 0, 255, 0.582);
+    border-radius: 40px;
+  }
+}
+
+#contacto{
+  margin-left: 50px;
+  margin-top: 20px;
+
+}
+
+.texto{
+  margin-top: 40px;
+  font-size: 20px;
+  text-shadow: 2px 2px #00000025
+}
+
+.titulo{
+  text-shadow: 3px 3px #00000025
 }
