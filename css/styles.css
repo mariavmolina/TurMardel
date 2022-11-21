@@ -141,7 +141,6 @@ footer {
 .perfil-img img{
   width: 150%;
   height: 150%;
-  object-fit: center;
   margin-left: -10px;
   
 }
