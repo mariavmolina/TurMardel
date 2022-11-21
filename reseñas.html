@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Contacto</title>
+    <title>Inicio</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Core theme CSS (includes Bootstrap)-->
@@ -61,62 +61,116 @@
         </nav>
 
     </header>
-
+    
     <main>
-        <section id="contacto">
-            <div>
-                <h2>Contacto</h2>
-                <p><strong>Contactate con nosotros</strong> por cualquier consulta que tengas. La responderemos en la brevedad.</p>
+        <section class="testimonios">
+            <div class="testimonios__header">
+                <span>Valoraciones de nuestros clientes</span>
             </div>
-            <form action="enviar_formulario.php" method="post" enctype="multipart/form-data">
-                <div class="nombre-apellido">
-                    <div>
-                        <label class="form" for="nombre">Nombre <span>*</span></label>
-                        <hr>
-                        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+            <!--TESTIMONIOS CONTENEDOR-->
+            <div class="testimonios__contenedor">
+                <!--CAJA 1-->
+                <div class="testimonios__caja">
+                    <div class="caja-top">
+                        <div class="perfil">
+                            <div class="perfil-img">
+                                <img src="../TurMardel-main/assets/profilepic.png" alt="">
+                            </div>
+                            <!--NOMBRE Y USUARIO-->
+                            <div class="name-user">
+                                <strong>Julieta Perez</strong>
+                                <div class="comentarios__clientes">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <label class="form" for="apellido">Apellido <span>*</span></label>
-                        <hr>
-                        <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
-                    </div>
-                </div>
-                <div class="select">
-                    <label class="form" >Sexo<span>*</span></label>
-                    <hr>
-                    <div>
-                        <input type="radio" required name="sexo" value="hombre" id="hombre">
-                        <label for="hombre">Hombre</label>
-                    </div>
-                    <div>
-                        <input type="radio" required name="sexo" value="mujer" id="mujer">
-                        <label for="mujer">Mujer</label>
-                    </div>
-                    <div>
-                        <input type="radio" required name="sexo" value="otro" id="otro">
-                        <label for="otro">Otro</label>
+                    <!--RESEÑAS>-->
+                    <div class="reseñas">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
                     </div>
                 </div>
-                <div>
-                    <label class="form" for="mail">Mail <span>*</span></label>
-                    <hr>
-                    <input type="email" name="mail" id="mail" placeholder="Ingrese un mail" required>
+
+                <div class="testimonios__caja">
+                    <div class="caja-top">
+                        <div class="perfil">
+                            <div class="perfil-img">
+                                <img src="../TurMardel-main/assets/profilepic.png" alt="">
+                            </div>
+                            <!--NOMBRE Y USUARIO-->
+                            <div class="name-user">
+                                <strong>Raul López</strong>
+                                <div class="comentarios__clientes">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--RESEÑAS>-->
+                    <div class="reseñas">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
                 </div>
-                <div>
-                    <label class="form" for="mensaje">Mensaje</label>
-                    <hr>
-                    <textarea name="mensaje" id="mensaje" cols="103" rows="6"
-                        placeholder="Escribe aquí tu consulta..."></textarea>
+
+                <div class="testimonios__caja">
+                    <div class="caja-top">
+                        <div class="perfil">
+                            <div class="perfil-img">
+                                <img src="../TurMardel-main/assets/profilepic.png" alt="">
+                            </div>
+                            <!--NOMBRE Y USUARIO-->
+                            <div class="name-user">
+                                <strong>Lucas Díaz</strong>
+                                <div class="comentarios__clientes">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--RESEÑAS>-->
+                    <div class="reseñas">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
                 </div>
-                <div class="submit">
-                    <input type="submit" value="Enviar">
+
+                <div class="testimonios__caja">
+                    <div class="caja-top">
+                        <div class="perfil">
+                            <div class="perfil-img">
+                                <img src="../TurMardel-main/assets/profilepic.png" alt="">
+                            </div>
+                            <!--NOMBRE Y USUARIO-->
+                            <div class="name-user">
+                                <strong>Agustina Garay</strong>
+                                <div class="comentarios__clientes">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--RESEÑAS>-->
+                    <div class="reseñas">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
                 </div>
-            </form>
-            <div id="enviado">
-                <p>El formulario se envio exitosamente!</p>
-            </div>
+             </div>
         </section>
-        
     </main>
 
     <footer>

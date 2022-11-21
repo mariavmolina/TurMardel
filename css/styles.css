@@ -10,6 +10,7 @@
 .reservas {
   background-color: orange;
   border-radius: 20px;
+  font-weight: 500;
 }
 
 nav li {
@@ -55,6 +56,7 @@ footer {
 
 }
 
+
 .form{
   margin-top: 15px;
   font-weight: bold;
@@ -81,4 +83,86 @@ footer {
 
 .titulo{
   text-shadow: 3px 3px #00000025
+}
+
+.testimonios{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  font-size: 40px;
+}
+
+.testimonios__header{
+  margin: 50px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: orange;;
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.reseñas{
+  color: #f9d71c;
+  font-size: 20px;
+}
+
+.testimonios__contenedor{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 15%;
+
+
+}
+
+.testimonios__caja{
+  width: 500px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+  background-color: white;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.perfil-img{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+  
+}
+
+.perfil-img img{
+  width: 150%;
+  height: 150%;
+  object-fit: center;
+  margin-left: -10px;
+  
+}
+
+.name-user{
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comentarios__clientes{
+  font-size: 20px;
+}
+
+.name-user strong{
+  color: #3d3d3d;
+  font-size: 1.8rem;
+}
+
+.caja-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
