@@ -55,6 +55,11 @@ footer {
 
 }
 
+.form{
+  margin-top: 15px;
+  font-weight: bold;
+}
+
 @media (hover: hover){
   .button:hover{
     background-color: rgba(38, 0, 255, 0.582);
