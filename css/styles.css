@@ -90,6 +90,8 @@ footer>div:last-child {
   text-shadow: 1px 1px #00000025
 }
 
+.
+
 
 
 
@@ -200,11 +202,27 @@ footer>div:last-child {
   margin-left: 295px;
 }
 
+.titulos{
+  margin: 1px 0px;
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: orange;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  border-radius: 20px;;
+  text-shadow: 20px rgb(3, 2, 0);
+}
+
+.titulos h2{
+  font-size: 2.5rem;
 
 
+}
 
-
-
+.subtitulos{
+  margin-top: 12px;
+  font-size: 1.3rem;
+}
 
 
 
