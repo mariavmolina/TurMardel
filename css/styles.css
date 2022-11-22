@@ -165,3 +165,12 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+
+.card{
+  width: 20rem;
+}
+
+.todo{
+  display: flex;
+  margin-left: 295px;
+}
