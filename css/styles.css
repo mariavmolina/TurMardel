@@ -90,7 +90,7 @@ footer>div:last-child {
   text-shadow: 1px 1px #00000025
 }
 
-.
+
 
 
 
@@ -128,7 +128,7 @@ footer>div:last-child {
   text-align: center;
 }
 
-.testimonios__header h1{
+.testimonios__header h1 {
   margin: 50px 0px;
   display: inline-block;
   padding: 15px 30px;
@@ -197,32 +197,30 @@ footer>div:last-child {
   width: 20rem;
 }
 
-.card h3{
-  font-size: 12px;
-}
 .todo {
   display: flex;
   margin-left: 295px;
 }
 
-.titulos{
+.titulos {
   margin: 1px 0px;
   display: inline-block;
   padding: 15px 30px;
   background-color: orange;
   color: rgb(0, 0, 0);
   font-weight: 500;
-  border-radius: 20px;;
+  border-radius: 20px;
+  ;
   text-shadow: 20px rgb(3, 2, 0);
 }
 
-.titulos h2{
+.titulos h2 {
   font-size: 2.5rem;
 
 
 }
 
-.subtitulos{
+.subtitulos {
   margin-top: 12px;
   font-size: 1.3rem;
 }
@@ -511,7 +509,11 @@ form>div>p {
 
 #MostrarP1,
 #MostrarP2,
-#MostrarP3 {
+#MostrarP3,
+#MostrarM1,
+#MostrarM2,
+#MostrarM3
+ {
   margin: 10px 0 0 -30px;
   display: flex;
 }
@@ -520,41 +522,51 @@ form>div>p {
 
 
 
-#preciototal p {
+#preciototal div {
+  border: 2px rgb(166, 166, 166) dotted;
+  padding: 10px 20px;
+  margin: 10px 0px;
+  display: block;
+
+}
+#preciototal h3 {
   margin-top: 10px;
   border: 2px rgb(255, 170, 11) solid;
   padding: 10px 20px;
+  font-size: 20px;
   font-weight: bold;
   display: inline-block;
 }
-
-#MostrarP1 {
-  display: none;
+#preciototal p {
+  color:  rgb(148, 148, 148);
+  margin-top: 10px;
+  padding: 5px 0;
+  display: block;
 }
 
-#MostrarP2 {
+#MostrarP1,
+#MostrarP2,
+#MostrarP3,
+#MostrarM1,
+#MostrarM2,
+#MostrarM3{
   display: none;
 }
-
-#MostrarP3 {
-  display: none;
-}
-
-.contenedorActividad{
+.contenedorActividad {
   margin: 19px;
   margin-left: 2%;
 }
 
-.contenedorActividad h1{
+.contenedorActividad h1 {
   font-weight: bold;
 }
 
-.contenedorActividad p{
+.contenedorActividad p {
   font-size: 22px;
   margin-top: 15px;
 }
 
-.tituloActividad{
+.tituloActividad {
   text-align: center;
   margin: 1px 0px;
   display: inline-block;
@@ -562,25 +574,57 @@ form>div>p {
   background-color: orange;
   color: rgb(0, 0, 0);
   font-weight: 500;
-  border-radius: 20px;;
+  border-radius: 20px;
+  ;
   text-shadow: 20px rgb(3, 2, 0);
   margin-left: 43%;
   margin-top: 20px;
   font-weight: normal;
 }
 
-.texto2{
+.texto2 {
   margin-top: 20px;
 }
 
-.aca{
-  display: inline-block;
+.texto-act > div{
+  margin: 30px 0;
 }
-.aca a{
-  color: blue;
+.texto-act h2 {
+  border: 1px solid rgb(176, 176, 176);
+  padding: 20px 15px;
+  font-weight: bold;
+  font-size: 40px;
+  display: inline-block;
+  border-radius: 5px;
+
+}
+.texto-act ul {
+  font-size: 20px;
+
+}
+.texto-act iframe {
+  display: block;
+}
+
+.aca{
+  margin: 50px 0;
+}
+.aca a {
+  width: fit-content;
   text-decoration: none;
+  padding: 15px 30px;
+  background-color: orange;
+  transition: all .4s ease;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 25px;
+  text-transform: uppercase;
+  
 }
 
 .aca a:hover{
-  color: #b3d0e1;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 194, 80);
+
 }
