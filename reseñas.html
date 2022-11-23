@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Contacto</title>
+    <title>Reseñas</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
     <!-- Core theme CSS (includes Bootstrap)-->
@@ -66,82 +66,116 @@
     </header>
 
     <main>
-        <section id="contacto " class="container">
-            <div class="text-center mt-5">
-                <div class="titulos"><h2>¡Dejanos tu consulta!</h2></div>
-                <p class="subtitulos"><strong>Contactate con nosotros</strong> por cualquier consulta que tengas. La responderemos en la
-                    brevedad.</p>
+        <section class="testimonios container">
+            <div class="testimonios__header">
+                <h1>Valoraciones de nuestros clientes</h1>
             </div>
-            <form class="container" action="#" method="get" enctype="application/x-www-form-urlencoded">
-                <div class="nombre-apellido">
-                    <div>
-                        <label for="nombre">Nombre <span>*</span></label>
-                        <hr>
-                        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required autofocus>
+            <!--TESTIMONIOS CONTENEDOR-->
+            <div class="testimonios__contenedor">
+                <div class="testimonios__caja">
+                    <div class="caja-top">
+                        <div class="perfil">
+                            <div class="perfil-img">
+                                <img src="assets/profilepic.png" alt="">
+                            </div>
+                            <!--NOMBRE Y USUARIO-->
+                            <div class="name-user">
+                                <h2>Julieta Perez</h2>
+                                <div class="comentarios__clientes">
+                                    <p>Hermosa compañía, viajé varias veces a Mar Del Plata adquiriendo sus actividades. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <label for="apellido">Apellido <span>*</span></label>
-                        <hr>
-                        <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
-                    </div>
-                </div>
-                <div class="select">
-                    <label>Sexo<span>*</span></label>
-                    <hr>
-                    <div>
-                        <input type="radio" required name="sexo" value="hombre" id="hombre">
-                        <label for="hombre">Hombre</label>
-                    </div>
-                    <div>
-                        <input type="radio" required name="sexo" value="mujer" id="mujer">
-                        <label for="mujer">Mujer</label>
-                    </div>
-                    <div>
-                        <input type="radio" required name="sexo" value="otro" id="otro">
-                        <label for="otro">Otro</label>
+                    <!--RESEÑAS>-->
+                    <div class="reseñas">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
                     </div>
                 </div>
-                <div>
-                    <label for="mail">Mail <span>*</span></label>
-                    <hr>
-                    <input type="email" name="mail" id="mail" placeholder="Ingrese un mail" required>
-                </div>
-                <div>
-                    <label for="telefono">Telefono (xx xxxx xxxx)</label>
-                    <hr>
-                    <input type="tel" name="telefono" id="telefono" placeholder="Ingrese un telefono"
-                        pattern="[0-9]{2} [0-9]{4} [0-9]{4}" />
-                </div>
-                <div>
-                    <label for="mensaje">Mensaje <span>*</span></label>
-                    <hr>
-                    <textarea name="mensaje" required id="mensaje" cols="103" rows="6"
-                        placeholder="Escribe aquí tu consulta..."></textarea>
-                </div>                
-                <div class="checkbox">
-                    <p>Quiero recibir información de: (Actividades)</p>
-                    <hr>
-                    <div>
-                        <input type="checkbox" id="moulin-rouge" name="moulin-rouge" value="moulin-rouge">
-                        <label for="moulin-rouge">Tour Museo</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="tour-nocturno" name="tour-nocturno" value="tour-nocturno">
-                        <label for="tour-nocturno">Tour Cervecero</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="autobus-turistico" name="autobus-turistico"
-                            value="autobus-turistico">
-                        <label for="autobus-turistico">Tour en barco</label>
-                    </div>
-                </div>
-                
-                <div class="submit">
-                    <input type="submit">
-                </div>
-            </form>
-        </section>
 
+                <div class="testimonios__caja">
+                    <div class="caja-top">
+                        <div class="perfil">
+                            <div class="perfil-img">
+                                <img src="assets/profilepic.png" alt="">
+                            </div>
+                            <!--NOMBRE Y USUARIO-->
+                            <div class="name-user">
+                                <h2>Raul López</h2>
+                                <div class="comentarios__clientes">
+                                    <p>Super accesibles con el tema precios, la calidad de los viajes y las actividades que ofrecen.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--RESEÑAS>-->
+                    <div class="reseñas">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="testimonios__caja">
+                    <div class="caja-top">
+                        <div class="perfil">
+                            <div class="perfil-img">
+                                <img src="assets/profilepic.png" alt="">
+                            </div>
+                            <!--NOMBRE Y USUARIO-->
+                            <div class="name-user">
+                                <h2>Lucas Díaz</h2>
+                                <div class="comentarios__clientes">
+                                    <p>Cumplen exactamente con lo que prometen.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--RESEÑAS>-->
+                    <div class="reseñas">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                </div>
+
+                <div class="testimonios__caja">
+                    <div class="caja-top">
+                        <div class="perfil">
+                            <div class="perfil-img">
+                                <img src="assets/profilepic.png" alt="">
+                            </div>
+                            <!--NOMBRE Y USUARIO-->
+                            <div class="name-user">
+                                <h2>Agustina Garay</h2>
+                                <div class="comentarios__clientes">
+                                    <p>Siempre que vamos a Mar Del Plata, elegimos a TurMardel para hacer cada una de sus excursiones. 
+                                        Precios adecuados a lo que ofrecen y excelente atención con sus clientes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--RESEÑAS>-->
+                    <div class="reseñas">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
