@@ -536,3 +536,44 @@ form>div>p {
 #MostrarP3 {
   display: none;
 }
+
+.contenedorActividad{
+  margin: 19px;
+  margin-left: 2%;
+}
+
+.contenedorActividad h1{
+  font-weight: bold;
+}
+
+.contenedorActividad p{
+  font-size: 22px;
+}
+
+.tituloActividad{
+  text-align: center;
+  margin: 1px 0px;
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: orange;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  border-radius: 20px;;
+  text-shadow: 20px rgb(3, 2, 0);
+  margin-left: 43%;
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+.texto2{
+  margin-top: 20px;
+}
+
+.aca a{
+  color: blue;
+  text-decoration: none;
+}
+
+.aca a:hover{
+  color: #b3d0e1;
+}
