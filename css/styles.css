@@ -197,6 +197,9 @@ footer>div:last-child {
   width: 20rem;
 }
 
+.card h3{
+  font-size: 12px;
+}
 .todo {
   display: flex;
   margin-left: 295px;
