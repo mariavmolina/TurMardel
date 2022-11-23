@@ -548,6 +548,7 @@ form>div>p {
 
 .contenedorActividad p{
   font-size: 22px;
+  margin-top: 15px;
 }
 
 .tituloActividad{
@@ -569,6 +570,9 @@ form>div>p {
   margin-top: 20px;
 }
 
+.aca{
+  display: inline-block;
+}
 .aca a{
   color: blue;
   text-decoration: none;
