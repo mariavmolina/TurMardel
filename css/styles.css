@@ -505,37 +505,51 @@ form>div>p {
   margin-left: -30px;
 }
 
+#reservas .checkbox>div>label {
+  margin-left: -30px;
+}
+
 #MostrarP1,
 #MostrarP2,
-#MostrarP3 {
+#MostrarP3,
+#MostrarM1,
+#MostrarM2,
+#MostrarM3
+ {
   margin: 10px 0 0 -30px;
   display: flex;
 }
 
+#preciototal div {
+  border: 2px rgb(166, 166, 166) dotted;
+  padding: 10px 20px;
+  margin: 10px 0px;
+  display: block;
 
-
-
-
-#preciototal p {
+}
+#preciototal h3 {
   margin-top: 10px;
   border: 2px rgb(255, 170, 11) solid;
   padding: 10px 20px;
+  font-size: 20px;
   font-weight: bold;
   display: inline-block;
 }
-
-#MostrarP1 {
-  display: none;
+#preciototal p {
+  color:  rgb(148, 148, 148);
+  margin-top: 10px;
+  padding: 5px 0;
+  display: block;
 }
 
-#MostrarP2 {
+#MostrarP1,
+#MostrarP2,
+#MostrarP3,
+#MostrarM1,
+#MostrarM2,
+#MostrarM3{
   display: none;
 }
-
-#MostrarP3 {
-  display: none;
-}
-
 .contenedorActividad{
   margin: 19px;
   margin-left: 2%;
