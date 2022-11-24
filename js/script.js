@@ -54,40 +54,40 @@ function act3CheckboxApretado() {
     mostrarPrecio()
 }
 
-function mostrarPrecio(){
+function mostrarPrecio() {
     let precio = 0
     let resumen = ""
-    if (document.getElementById("act1").checked == true){
+    if (document.getElementById("act1").checked == true) {
         precio += 3000 * document.getElementById("cantP1").value
-        if( document.getElementById("cantP1").value > 0){
+        if (document.getElementById("cantP1").value > 0) {
             resumen += `<p>Tour museo - X${document.getElementById("cantP1").value} adulto/s --------------------------------------------------- $${3000 * document.getElementById("cantP1").value}\n</p>`
         }
-        precio += 3000/2 * document.getElementById("cantM1").value
-        if( document.getElementById("cantM1").value > 0){
-            resumen += `<p>Tour museo - X${document.getElementById("cantM1").value} menor/es --------------------------------------------------- $${3000/2 * document.getElementById("cantM1").value}\n</p>`
+        precio += 3000 / 2 * document.getElementById("cantM1").value
+        if (document.getElementById("cantM1").value > 0) {
+            resumen += `<p>Tour museo - X${document.getElementById("cantM1").value} menor/es --------------------------------------------------- $${3000 / 2 * document.getElementById("cantM1").value}\n</p>`
         }
     }
-    if (document.getElementById("act2").checked == true){
+    if (document.getElementById("act2").checked == true) {
         precio += 3000 * document.getElementById("cantP2").value
-        if( document.getElementById("cantP2").value > 0){
-            resumen += `<p>Tour cervecero - X${document.getElementById("cantP2").value} adulto/s --------------------------------------------------- $${3500 * document.getElementById("cantP2").value}\n</p>`
+        if (document.getElementById("cantP2").value > 0) {
+            resumen += `<p>Tour cervecero - X${document.getElementById("cantP2").value} adulto/s --------------------------------------------------- $${3000 * document.getElementById("cantP2").value}\n</p>`
         }
-        precio += 3000/2 * document.getElementById("cantM2").value
-        if( document.getElementById("cantM2").value > 0){
-            resumen += `<p>Tour cervecero - X${document.getElementById("cantM2").value} menor/es --------------------------------------------------- $${3500/2 * document.getElementById("cantM2").value}\n</p>`
+        precio += 3000 / 2 * document.getElementById("cantM2").value
+        if (document.getElementById("cantM2").value > 0) {
+            resumen += `<p>Tour cervecero - X${document.getElementById("cantM2").value} menor/es --------------------------------------------------- $${3000 / 2 * document.getElementById("cantM2").value}\n</p>`
         }
     }
-    if (document.getElementById("act3").checked == true){
+    if (document.getElementById("act3").checked == true) {
         precio += 4500 * document.getElementById("cantP3").value
-        if( document.getElementById("cantP3").value > 0){
+        if (document.getElementById("cantP3").value > 0) {
             resumen += `<p>Tour en barco - X${document.getElementById("cantP3").value} adulto/s --------------------------------------------------- $${4500 * document.getElementById("cantP3").value}\n</p>`
         }
-        precio += 4500/2 * document.getElementById("cantM3").value
-        if( document.getElementById("cantM3").value > 0){
-            resumen += `<p>Tour en barco - X${document.getElementById("cantM3").value} menor/es --------------------------------------------------- $${4500/2 * document.getElementById("cantM3").value}\n</p>`
+        precio += 4500 / 2 * document.getElementById("cantM3").value
+        if (document.getElementById("cantM3").value > 0) {
+            resumen += `<p>Tour en barco - X${document.getElementById("cantM3").value} menor/es --------------------------------------------------- $${4500 / 2 * document.getElementById("cantM3").value}\n</p>`
         }
     }
-    if (document.getElementById("act1").checked == true && document.getElementById("act2").checked == true && document.getElementById("act3").checked == true){
+    if (document.getElementById("act1").checked == true && document.getElementById("act2").checked == true && document.getElementById("act3").checked == true) {
         resumen += `<hr><p>Cupon del 20% de descuento al monto de $${precio} por comprar las tres actividades - <strong> Precio final: $${precio - precio * 0.20}<strong></p>`
         precio -= precio * 0.20
     }
