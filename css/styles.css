@@ -98,7 +98,7 @@ footer>div:last-child {
 .texto {
   margin-top: 40px;
   font-size: 17px;
-  text-shadow: 2px 2px #00000025
+  
 }
 
 .titulo h1 {
@@ -612,5 +612,12 @@ form>div>p {
   
 }
 
+#footerNosotros{
+  margin-top: 110px;
+}
 
 
+
+#textoAct1{
+  margin-top: 60px;
+}
